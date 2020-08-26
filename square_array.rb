@@ -13,3 +13,11 @@ end
 
 
 
+def square_array(array)
+  numbers_square = [ ]
+  array.each do |number|
+    numbers_square << (number ** 2)
+  end
+end
+
+  return new_numbers
